@@ -1,7 +1,6 @@
 import {Component, OnInit} from '@angular/core';
 import {ajax} from 'rxjs/ajax';
-import {map, switchMap, take} from 'rxjs/operators';
-import get = Reflect.get;
+import {switchMap} from 'rxjs/operators';
 import {from} from 'rxjs';
 
 @Component({
